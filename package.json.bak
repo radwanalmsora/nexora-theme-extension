@@ -1,0 +1,56 @@
+{
+  "name": "nexora-ultimate-theme",
+  "displayName": "Nexora — Ultimate UI & Syntax Themes",
+  "description": "A complete, carefully tuned Visual Studio Code theme suite: editor syntax, semantic highlighting, workbench, terminal, file icons and product icons.",
+  "version": "1.0.0",
+  "publisher": "YOUR_PUBLISHER_ID",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "file-icons",
+    "product-icons",
+    "nexora"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nexora Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nexora-obsidian-color-theme.json"
+      },
+      {
+        "label": "Nexora Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nexora-aurora-color-theme.json"
+      },
+      {
+        "label": "Nexora Pearl",
+        "uiTheme": "vs",
+        "path": "./themes/nexora-pearl-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "nexora-file-icons",
+        "label": "Nexora File Icons",
+        "path": "./themes/nexora-file-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
+  },
+  "icon": "icon.png"
+}
