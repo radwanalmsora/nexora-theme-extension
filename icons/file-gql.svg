@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<path d="M13 5h25l13 13v40H13z" fill="#172337" stroke="#55D6BE" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M38 5v14h13" fill="none" stroke="#55D6BE" stroke-width="2.5"/>
+<path d="M19 25h26" stroke="#55D6BE" opacity=".35" stroke-width="2"/>
+<text x="32" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#55D6BE">GQL</text>
+</svg>
